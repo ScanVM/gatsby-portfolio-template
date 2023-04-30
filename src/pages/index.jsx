@@ -28,9 +28,9 @@ const HomePage = () => {
           <Text tag='h2' color='secondary' variant='subtitle'>ABOUT</Text>
         </header>
         <div className={styles.aboutContent}>
-          <StaticImage className={styles.aboutAvatar} src='../assets/images/yourname.png' alt='Your Name' objectFit='contain' />
+          <StaticImage className={styles.aboutAvatar} src='../assets/images/yourname.png' alt='Vinicius Scandura' objectFit='contain' />
           <Text tag='p'>
-            Describe who you are, where you live, your graduations, preveius jobs, hobbies and whatever you believe is important that employers know about you.
+            No momento sigo como estudante, aprendendo principalmente a linguagem de programação Python.
           </Text>
           <StaticImage className={styles.aboutStats} src='../assets/images/github_stats.png' alt='github stats' objectFit='contain' />
         </div>
